@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import HomeCompn from './components/Message';
+import MapDemo from './components/MapDemo';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
+  
+    <React.StrictMode>
+    {/* <HomeCompn /> */}
+    <MapDemo/>
   </React.StrictMode>,
   document.getElementById('root')
 );
